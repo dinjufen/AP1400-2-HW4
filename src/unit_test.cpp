@@ -84,7 +84,7 @@ TEST(HW4Test, TEST9) {
     delete tmp;
 }
 
-/*
+
 TEST(HW4Test, TEST10) {
     SharedPtr<int> ptr1{new int{10}};
     EXPECT_EQ(*ptr1.get(), 10);
@@ -204,7 +204,6 @@ TEST(HW4Test, TEST21) {
     EXPECT_EQ(ptr1.use_count(), 2);
     EXPECT_EQ(ptr2.use_count(), 2);
 }
-*/
 
 
 
